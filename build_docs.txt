@@ -1,0 +1,8 @@
+Need to run sphinx-autodoc to create the docs from docstrings in code (terminal started in base opendeep folder):
+
+1) rm docs/source/opendeep*.rst
+2) sphinx-apidoc -f -o docs/source/ opendeep/
+3) cd docs/
+4) make clean && make html
+
+Now you can view the html documentation in the build/ directory!

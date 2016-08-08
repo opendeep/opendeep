@@ -1,89 +1,117 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+outputs
+datasets
+opendeep/log/logs
+*.npy
+*.pkl
 
-# C extensions
-*.so
+venv
+bin
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
+#################
+## Eclipse
+#################
+
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+#############
+## Python
+#############
+
+*.py[co]
+
+# Packages
 *.egg
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
 
 # Installer logs
 pip-log.txt
-pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
-.tox/
 .coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*,cover
-.hypothesis/
+.tox
 
-# Translations
+#Translations
 *.mo
-*.pot
 
-# Django stuff:
-*.log
-local_settings.py
+#Mr Developer
+.mr.developer.cfg
 
-# Flask stuff:
-instance/
-.webassets-cache
 
-# Scrapy stuff:
-.scrapy
+#############
+## Macbook
+#############
+.DS_Store
 
-# Sphinx documentation
-docs/_build/
+#############
+## Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+#############
+*.iml
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+## File-based project format:
+*.ipr
+*.iws
+## Plugin-specific files:
+# IntelliJ
+out/
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+# JIRA plugin
+atlassian-ide-plugin.xml
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
 
-# PyBuilder
-target/
-
-# IPython Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# dotenv
-.env
-
-# virtualenv
-venv/
-ENV/
-
-# Spyder project settings
-.spyderproject
-
-# Rope project settings
-.ropeproject
+############
+# rst2html #
+############
+rst2html.py
